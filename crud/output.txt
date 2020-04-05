@@ -1,0 +1,34 @@
+List of categories created
+
++----+-----------+------------------+------+-------+
+| id | parent_id | name             | left | right |
++----+-----------+------------------+------+-------+
+|  1 |      NULL | Root             |    1 |    32 |
+|  2 |         1 | Jewellery        |    2 |     7 |
+|  3 |         1 | GiftCard         |    8 |    15 |
+|  4 |         1 | Beauty           |   16 |    25 |
+|  5 |         1 | Watches          |   26 |    31 |
+|  6 |         2 | Fashion          |    3 |     4 |
+|  7 |         2 | Precious         |    5 |     6 |
+|  8 |         3 | EGiftCard        |    9 |    10 |
+|  9 |         3 | PhysicalGiftCard |   11 |    12 |
+| 10 |         3 | BulkGiftCard     |   13 |    14 |
+| 11 |         4 | SkinCare         |   17 |    18 |
+| 12 |         4 | nailCare         |   19 |    20 |
+| 13 |         4 | makeUp           |   21 |    22 |
+| 14 |         4 | Fragrance        |   23 |    24 |
+| 15 |         5 | SmartWatches     |   27 |    28 |
+| 16 |         5 | CoupleWatches    |   29 |    30 |
++----+-----------+------------------+------+-------+
+
+List of product
+
++----+-----------------------+-------------+
+| id | name                  | category_id |
++----+-----------------------+-------------+
+|  1 | Enduro Eardrop purple |           3 |
+|  2 | Apple watch series    |          15 |
+|  3 | Samsung watches       |          15 |
+|  4 | Long neckpiece        |           6 |
++----+-----------------------+-------------+
+
