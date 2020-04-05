@@ -5,7 +5,7 @@ MYSQL* DbConn::createConnection() {
     return connection = mysql_real_connect(&mysql,
                                     "localhost",
                                     "root",
-                                    "Angel123#",
+                                    "root",
                                     "ecommerce",
                                     0,
                                     0,
